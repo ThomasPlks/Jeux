@@ -35,10 +35,10 @@ body {
 }
 
 #mario {
-    background: url("img/loup1.png");
-    height: 80px;
+    background: url("img/mario.png");
+    height: 65px;
     /*représente la hauteur du sprite*/
-    width: 106px;/*largeur du rectangle*/
+    width: 30px;/*largeur du rectangle*/
     /*dessine un rectangle autour d'une image du sprite*/
     background-position-x: -3px;
     /*deplace le rectangle autour d'une images du sprite*/
@@ -49,13 +49,13 @@ body {
 }
 
 .mario-droite {
-    animation: mario 2s steps(6) infinite;
+    animation: mario 0.5s steps(25) infinite;
 
 }
 
 
 .mario-gauche {
-    animation: mario 0.1s steps(6) infinite;
+    animation: mario 0.5s steps(25) infinite;
     /*anime le sprite avec le nom la durée et le nombre d'étape*/
     transform: translateX(-50%) scaleX(-1);
     /*faire marcher le mario dans l'autre sens */
